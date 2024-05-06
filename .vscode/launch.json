@@ -28,7 +28,7 @@
             "request": "launch",
             "preLaunchTask": "RaspberryPiDeploy",
             "program": "dotnet",
-            "args": ["/home/admin/${workspaceFolderBasename}/${workspaceFolderBasename}.dll"],
+            "args": ["/home/admin/${workspaceFolderBasename}/MyFirstApp.dll"],
             "cwd": "/home/admin/${workspaceFolderBasename}",
             "stopAtEntry": false,
             "console": "internalConsole",

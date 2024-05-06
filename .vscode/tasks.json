@@ -62,7 +62,7 @@
                 "close": true
             },
             "windows": {
-                "command": "copy bin\\linux-arm64\\publish\\ -Destination P:${workspaceFolderBasename} -Recurse -Container:$false"
+                "command": "copy bin\\linux-arm64\\publish\\ -Destination P:${workspaceFolderBasename} -Recurse -Container:$false -Force"
             },
             "problemMatcher": []
         }
