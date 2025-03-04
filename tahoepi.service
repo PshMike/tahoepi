@@ -1,0 +1,11 @@
+[Unit] 
+Description=Logging app for Tahoe using Raspberry Pi
+
+[Service]
+ExecStart=/home/admin/.dotnet/dotnet tahoepi.dll
+WorkingDirectory=/home/admin/tahoepi
+User=admin
+Group=admin
+
+[Install]
+WantedBy=multi-user.target

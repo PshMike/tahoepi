@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstApp", "MyFirstApp.csproj", "{83CE7416-6605-4110-8C55-0D02824C6636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tahoepi", "tahoepi.csproj", "{0DBE0E3E-F318-47C3-BB87-84A616D64DCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83CE7416-6605-4110-8C55-0D02824C6636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83CE7416-6605-4110-8C55-0D02824C6636}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83CE7416-6605-4110-8C55-0D02824C6636}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83CE7416-6605-4110-8C55-0D02824C6636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBE0E3E-F318-47C3-BB87-84A616D64DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBE0E3E-F318-47C3-BB87-84A616D64DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBE0E3E-F318-47C3-BB87-84A616D64DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBE0E3E-F318-47C3-BB87-84A616D64DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {179E8514-85A8-44CE-9664-2B0CE48FE609}
+		SolutionGuid = {13F14133-275B-43AC-995A-FABC65BC0AD6}
 	EndGlobalSection
 EndGlobal

@@ -37,6 +37,7 @@ Log.Logger = new LoggerConfiguration()
 
 
 
+var entry = new Jenne.TahoePI.Telemetry();
 
 
 while (true)
@@ -54,9 +55,12 @@ while (true)
     double temp = 1 / (Math.Log( R/R0 )/B+1/298.15) -273.15;
     temp = temp * 1.8 + 32;
 
-    Log.Information("Temp is {0}", temp.ToString());
-    Log.Information("LightLevel is {0}", lightLevel.ToString());
+    entry.Temp1 = temp;
+    entry.LightLevel = lightLevel;
+    TimeSpan timeSpan  = DateTime.Now - entry.sessionStart;
+    entry.sessionUptime = timeSpan.TotalSeconds;
 
+    Log.Information("Processing {@Entry}", entry);
     Console.WriteLine(temp.ToString());
     Console.WriteLine(lightLevel);
     Console.WriteLine();
